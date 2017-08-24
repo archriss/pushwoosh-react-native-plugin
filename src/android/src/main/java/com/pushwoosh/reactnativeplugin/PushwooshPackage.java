@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class PushwooshPackage implements ReactPackage {
-    @Override
+    // @Override (deprecated in RN 0.47)
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
